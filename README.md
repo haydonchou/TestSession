@@ -64,20 +64,20 @@ java -jar TestSession-0.0.1-SNAPSHOT.jar --server.port=8081
 
 3.Browser access http://127.0.0.1/public/test?code=123456
 
-1st return success：123456
-2nd return failed: "No bean named 'scopedTarget.testRequest' available"
-3rd return success：123456
-4th return failed: "No bean named 'scopedTarget.testRequest' available"
-5th return success：123456
+1st return success：123456  
+2nd return failed: "No bean named 'scopedTarget.testRequest' available"  
+3rd return success：123456  
+4th return failed: "No bean named 'scopedTarget.testRequest' available"  
+5th return success：123456  
 
-clear browser session.
+clear browser session.  
 
-6th return success：123456
-7th return failed: "No bean named 'scopedTarget.testRequest' available"
-8th return success：123456
-9th return failed: "No bean named 'scopedTarget.testRequest' available"
+6th return success：123456  
+7th return failed: "No bean named 'scopedTarget.testRequest' available"  
+8th return success：123456  
+9th return failed: "No bean named 'scopedTarget.testRequest' available"  
 
-** If you set spring.cloud.refresh.enabled=false, there is no problem with all requests. **
+** If you set spring.cloud.refresh.enabled=false, there is no problem with all requests. **  
 
 
-@EnableOAuth2Sso is used like this. Now that it has a problem, I wrote a demo project to test the session.
+@EnableOAuth2Sso is used like this. Now that it has a problem, I wrote a demo project to test the session.  
