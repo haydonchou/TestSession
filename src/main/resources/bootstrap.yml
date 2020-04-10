@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: test-session
+#  main:#    allow-bean-definition-overriding: true
+#  cloud:
+#    refresh:
+#   set false #      enabled: false

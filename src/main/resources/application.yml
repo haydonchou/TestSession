@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    
+spring:
+#redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
+#    password: redis
+#session
+  session:
+    store-type: redis
+    timeout: 1800 #default 1800
+    redis:
+      namespace: ${spring.application.name}
+      
+      
