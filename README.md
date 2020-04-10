@@ -77,7 +77,7 @@ clear browser session.
 8th return success：123456  
 9th return failed: "No bean named 'scopedTarget.testRequest' available"  
 
-* If you set spring.cloud.refresh.enabled=false, there is no problem with all requests. *  
+ **  If you set spring.cloud.refresh.enabled=false, there is no problem with all requests.  **  
 
 
 @EnableOAuth2Sso is used like this. Now that it has a problem, I wrote a demo project to test the session.  
